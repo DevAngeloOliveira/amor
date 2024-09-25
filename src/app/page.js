@@ -4,7 +4,9 @@ import React, { useEffect } from "react";
 
 const NamoroComponente = () => {
   const sim = () => {
-    alert("Você aceitou namorar comigo! :)");
+    alert(
+      "Agora você é meu amorzinho! 😍 ps: espero que tenha sido de primeira"
+    );
     location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
   };
 
