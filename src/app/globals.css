@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.coracao {
+  position: absolute;
+  top: -50px; /* Começa acima da tela */
+  font-size: 30px; /* Tamanho do emoji */
+  animation: cair 3s linear forwards;
+}
+
+@keyframes cair {
+  to {
+    transform: translateY(100vh); /* Move o coração para baixo da tela */
+    opacity: 0; /* Desaparece ao cair */
+  }
+}
