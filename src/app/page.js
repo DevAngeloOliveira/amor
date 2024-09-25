@@ -7,7 +7,8 @@ const NamoroComponente = () => {
     alert(
       "Agora você é meu amorzinho! 😍 ps: espero que tenha sido de primeira"
     );
-    location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
+    location.href =
+      "https://music.youtube.com/watch?v=P0flqL3E5sM&si=cwdIiB_Pcfs-LsVB";
   };
 
   const desvia = (btn) => {
