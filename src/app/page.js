@@ -22,7 +22,6 @@ const NamoroComponente = () => {
   const criarCoracao = () => {
     const coracao = document.createElement("div");
     coracao.className = "coracao";
-    coracao.innerText = "❤️"; // Usando o emoji de coração
     coracao.style.left = `${Math.random() * 100}vw`;
     document.body.appendChild(coracao);
 
