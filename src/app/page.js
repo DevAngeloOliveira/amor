@@ -5,8 +5,7 @@ import React, { useEffect } from "react";
 const NamoroComponente = () => {
   const sim = () => {
     alert("Você aceitou namorar comigo! :)");
-    location.href =
-      "https://music.youtube.com/watch?v=P0flqL3E5sM&si=NLZnIrlWqHy70feA";
+    location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
   };
 
   const desvia = (btn) => {
@@ -38,21 +37,19 @@ const NamoroComponente = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-pink-500 to-yellow-500 p-10 rounded-lg shadow-lg animate-fadeIn">
-      <h2 className="text-white text-3xl font-cursive mb-6">
+    <div className="flex flex-col items-center justify-center h-screen p-10 rounded-lg shadow-lg bg-gradient-to-r from-pink-500 to-yellow-500 animate-fadeIn">
+      <h2 className="mb-6 text-3xl text-white font-cursive">
         Aceita namorar comigo?
       </h2>
       <div className="flex space-x-4">
-        {" "}
-        {/* Adicionando espaço entre os botões */}
         <button
-          className="bg-green-500 text-white py-2 px-4 rounded-lg shadow-md transition-transform transform hover:scale-110"
+          className="px-4 py-2 text-white transition-transform transform bg-green-500 rounded-lg shadow-md hover:scale-110"
           onClick={sim}
         >
           SIM
         </button>
         <button
-          className="bg-red-500 text-white py-2 px-4 rounded-lg shadow-md transition-transform transform hover:scale-110"
+          className="px-4 py-2 text-white transition-transform transform bg-red-500 rounded-lg shadow-md hover:scale-110"
           onMouseOver={(e) => desvia(e.target)}
         >
           NÃO
